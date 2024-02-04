@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Produkt</title>
+</head>
+
+<body>
+    <h1>Produktdetaljer</h1>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Forside</a></li>
+            <li><a href="produktliste.html">Produktliste</a></li>
+            <li><a href="kategori.html">Kategorier</a></li>
+            <li><a href="produkt.html">Produkt</a></li>
+
+        </ul>
+    </nav>
+
+    <!-- Her kan du indsætte dynamiske data fra API'en -->
+    <div class="product-details">
+        <img src="https://kea-alt-del.dk/t7/images/webp/640/1573.webp" alt="Produktbillede">
+        <h2>Produktnavn</h2>
+        <p>Beskrivelse af produktet.</p>
+        <p>Pris: $X.XX</p>
+
+        <!-- Håndter udsolgte produkter og rabatpriser visuelt -->
+        <p class="sold-out">Udsolgt</p>
+        <p class="discounted-price">Rabatpris: $X.XX</p>
+
+        <!-- Andre produktrelaterede oplysninger -->
+
+        <!-- Eksempel på en tilbageknap -->
+        <a href="produktliste.html">Tilbage til produktlisten</a>
+    </div>
+
+</body>
+
+</html>
