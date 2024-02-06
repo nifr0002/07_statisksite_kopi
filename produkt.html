@@ -20,24 +20,25 @@
 
         </ul>
     </nav>
+    <main>
+        <!-- Her kan du indsætte dynamiske data fra API'en -->
+        <div class="product-details">
+            <img src="https://kea-alt-del.dk/t7/images/webp/640/1573.webp" alt="Produktbillede">
+            <h2>Produktnavn</h2>
+            <p>Beskrivelse af produktet.</p>
+            <p>Pris: $X.XX</p>
 
-    <!-- Her kan du indsætte dynamiske data fra API'en -->
-    <div class="product-details">
-        <img src="https://kea-alt-del.dk/t7/images/webp/640/1573.webp" alt="Produktbillede">
-        <h2>Produktnavn</h2>
-        <p>Beskrivelse af produktet.</p>
-        <p>Pris: $X.XX</p>
+            <!-- Håndter udsolgte produkter og rabatpriser visuelt -->
+            <p class="sold-out">Udsolgt</p>
+            <p class="discounted-price">Rabatpris: $X.XX</p>
 
-        <!-- Håndter udsolgte produkter og rabatpriser visuelt -->
-        <p class="sold-out">Udsolgt</p>
-        <p class="discounted-price">Rabatpris: $X.XX</p>
+            <!-- Andre produktrelaterede oplysninger -->
 
-        <!-- Andre produktrelaterede oplysninger -->
-
-        <!-- Eksempel på en tilbageknap -->
-        <a href="produktliste.html">Tilbage til produktlisten</a>
-    </div>
-
+            <!-- Eksempel på en tilbageknap -->
+            <a href="produktliste.html">Tilbage til produktlisten</a>
+        </div>
+    </main>
+    <script src="product.js"></script>
 </body>
 
 </html>
